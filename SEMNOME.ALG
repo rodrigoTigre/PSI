@@ -1,17 +1,17 @@
-Algoritmo "semnome"
+Algoritmo "par_ou_impar"
 // Autor(a)    : Rodrigo
 // Data atual  : 28/09/2017
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 Escreva ("qual o numero")
 leia(numero)
 se (numero mod 2=0) entao
-escreva ("o numero",numero," é par")
+escreva ("o numero",numero," Ã© par")
 senao
-escreva (" o numero",numero," é impar")
+escreva (" o numero",numero," Ã© impar")
 fimse
 Fimalgoritmo
