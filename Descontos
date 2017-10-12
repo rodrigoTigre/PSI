@@ -1,0 +1,32 @@
+Algoritmo "Desconto_Produtos"
+// Autor : Rodrigo
+// Data atual : 12/10/2017
+Var
+Preco, preco_desconto, desconto: real
+quantidade: inteiro
+nome_produto, valor: caracter
+Inicio
+Escreval("Qual o nome do produto?")
+leia(nome_produto)
+Escreval("Qual o preço do produto?")
+leia(preco)
+Escreval("Qual a quantidade que deseja?")
+leia(quantidade)
+Escolha(quantidade)
+Caso 1 ate 4
+preco_desconto <- preco*quantidade
+Caso 5 ate 10
+desconto <- preco*0,05
+preco_desconto <- (preco-desconto)*quantidade
+Caso 11 ate 20
+desconto <- preco*0,15
+preco_desconto <- (preco-desconto)*quantidade
+Caso 20 ate 100000000
+desconto <- preco*0,30
+preco_desconto <- (preco-desconto)*quantidade
+outrocaso
+valor <-"Inválido"
+fimescolha
+Escreva("O produto com o desconto custa" ,preco_desconto)
+
+Fimalgoritmo
